@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shop.mall.mapper.GoodsMapper" >
+  <resultMap id="BaseResultMap" type="com.shop.mall.entity.Goods" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="uid" property="uid" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="detail" property="detail" jdbcType="VARCHAR" />
+    <result column="original_price" property="originalPrice" jdbcType="DECIMAL" />
+    <result column="present_price" property="presentPrice" jdbcType="DECIMAL" />
+    <result column="classification_id" property="classificationId" jdbcType="INTEGER" />
+    <result column="number" property="number" jdbcType="INTEGER" />
+    <result column="level" property="level" jdbcType="INTEGER" />
+    <result column="image_url" property="imageUrl" jdbcType="VARCHAR" />
+    <result column="is_offshelf" property="isOffshelf" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="INTEGER" />
+    <result column="update_time" property="updateTime" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, uid, name, detail, original_price, present_price, classification_id, number, 
+    level, image_url, is_offshelf, create_time, update_time
+  </sql>
+</mapper>

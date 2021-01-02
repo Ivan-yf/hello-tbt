@@ -1,0 +1,6 @@
+com\shop\mall\mapper\GoodsMapper.class
+com\shop\mall\service\impl\GoodsServiceImpl.class
+com\shop\mall\service\GoodsService.class
+com\shop\mall\controller\test.class
+com\shop\mall\entiy\Goods.class
+com\shop\mall\SpringApplicationBoot.class
